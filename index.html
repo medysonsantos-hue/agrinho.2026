@@ -1,1 +1,186 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Água que Alimenta - Agro Forte, Futuro Sustentável</title>
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== CABEÇALHO ==================== -->
+    <header>
+        <div class="logo">
+            <h1>💧 Água que Alimenta</h1>
+            <p>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+        </div>
+        <!-- Menu de navegação simplificado -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre o tema</a></li>
+                <li><a href="#solucoes">Soluções sustentáveis</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
+                <li><a href="#questionario">Questionário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ==================== MAIN ==================== -->
+    <main>
+
+        <!-- SEÇÃO INÍCIO -->
+        <section id="inicio" class="secao">
+            <div class="conteudo-inicio">
+                <h2>💙 Bem-vindo ao projeto "Água que Alimenta"</h2>
+                <p>A água é o recurso mais precioso para a agricultura e para a vida. 
+                Ela alimenta plantações, animais e também a nós. Mas será que estamos usando 
+                ela da forma correta? Aqui você vai aprender a economizar, reutilizar e 
+                preservar a água no seu dia a dia.</p>
+                <img src="https://images.pexels.com/photos/417047/pexels-photo-417047.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                     alt="Campo irrigado com água e plantação verde" 
+                     class="imagem-destaque">
+            </div>
+        </section>
+
+        <!-- SEÇÃO SOBRE O TEMA -->
+        <section id="sobre" class="secao">
+            <h2>🌱 Por que falar sobre desperdício de água?</h2>
+            <article>
+                <p>Muitas pessoas usam a água como se fosse infinita, mas não é! 
+                A agricultura consome cerca de 70% da água doce disponível no mundo, 
+                e grande parte é desperdiçada por técnicas inadequadas de irrigação, 
+                vazamentos e falta de conscientização.</p>
+                <p><strong>O problema escolhido:</strong> Desperdício de água na agricultura e no uso doméstico.</p>
+                <p>Nosso objetivo é ensinar formas mais econômicas de utilizar e reutilizar a água, 
+                ajudando você a controlar seus gastos, seu autoconsumo e evitar desperdícios 
+                que muitas vezes passam despercebidos.</p>
+            </article>
+        </section>
+
+        <!-- SEÇÃO SOLUÇÕES SUSTENTÁVEIS -->
+        <section id="solucoes" class="secao">
+            <h2>💧 Dicas e soluções para economizar água</h2>
+            <div class="grade-dicas">
+                <div class="card-dica">
+                    <h3>🚿 Reaproveitamento</h3>
+                    <p>Use água da chuva para regar plantas ou lavar calçadas. Água da máquina de lavar pode ser reutilizada para limpeza externa.</p>
+                </div>
+                <div class="card-dica">
+                    <h3>💦 Irrigação eficiente</h3>
+                    <p>No campo, prefira gotejamento ou aspersão controlada. Evite mangueiras ligadas o tempo todo.</p>
+                </div>
+                <div class="card-dica">
+                    <h3>🔧 Conserte vazamentos</h3>
+                    <p>Uma torneira pingando pode desperdiçar até 46 litros de água por dia!</p>
+                </div>
+                <div class="card-dica">
+                    <h3>⏱️ Reduza o tempo no banho</h3>
+                    <p>Banhos de até 5 minutos economizam milhares de litros por mês.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CURIOSIDADES -->
+        <section id="curiosidades" class="secao">
+            <h2>🔍 Você sabia? Curiosidades sobre a água</h2>
+            <ul class="lista-curiosidades">
+                <li>💧 Apenas 2,5% de toda água do planeta é doce, e menos de 1% está disponível para consumo.</li>
+                <li>💧 Produzir 1 kg de arroz consome cerca de 2.500 litros de água.</li>
+                <li>💧 Uma torneira aberta por 30 minutos desperdiça aproximadamente 200 litros de água.</li>
+                <li>💧 A agricultura familiar é responsável por cerca de 70% da produção de alimentos no Brasil, mas muitas vezes sofre com falta de acesso a técnicas sustentáveis.</li>
+            </ul>
+        </section>
+
+        <!-- SEÇÃO QUESTIONÁRIO INTERATIVO -->
+        <section id="questionario" class="secao">
+            <h2>📋 Qual é o seu nível de consciência sobre o uso da água?</h2>
+            <p>Responda o questionário abaixo e descubra dicas personalizadas para economizar água no seu dia a dia!</p>
+            
+            <form id="form-questionario">
+                <!-- Pergunta 1 -->
+                <div class="pergunta">
+                    <label>1. Quanto tempo você demora no banho em média?</label>
+                    <select id="pergunta1" required>
+                        <option value="">Selecione</option>
+                        <option value="0">Menos de 5 minutos</option>
+                        <option value="1">De 5 a 10 minutos</option>
+                        <option value="2">Mais de 10 minutos</option>
+                    </select>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div class="pergunta">
+                    <label>2. Você fecha a torneira enquanto escova os dentes ou ensaboa a louça?</label>
+                    <select id="pergunta2" required>
+                        <option value="">Selecione</option>
+                        <option value="0">Sempre fecho</option>
+                        <option value="1">Às vezes fecho</option>
+                        <option value="2">Nunca fecho</option>
+                    </select>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div class="pergunta">
+                    <label>3. Você verifica e conserta vazamentos em casa ou no sítio?</label>
+                    <select id="pergunta3" required>
+                        <option value="">Selecione</option>
+                        <option value="0">Sempre verifico</option>
+                        <option value="1">Às vezes</option>
+                        <option value="2">Não me preocupo com isso</option>
+                    </select>
+                </div>
+
+                <!-- Pergunta 4 -->
+                <div class="pergunta">
+                    <label>4. Na sua propriedade ou casa, você reaproveita água da chuva ou da máquina de lavar?</label>
+                    <select id="pergunta4" required>
+                        <option value="">Selecione</option>
+                        <option value="0">Sim, sempre reaproveito</option>
+                        <option value="1">Reaproveito pouco</option>
+                        <option value="2">Não reaproveito nada</option>
+                    </select>
+                </div>
+
+                <!-- Pergunta 5 -->
+                <div class="pergunta">
+                    <label>5. Você acredita que o desperdício de água é um problema grave no Brasil?</label>
+                    <select id="pergunta5" required>
+                        <option value="">Selecione</option>
+                        <option value="0">Sim, gravíssimo</option>
+                        <option value="1">Mais ou menos</option>
+                        <option value="2">Não acho grave</option>
+                    </select>
+                </div>
+
+                <button type="button" id="btn-avaliar">Ver minha classificação 💧</button>
+            </form>
+
+            <!-- Área para exibir o resultado do questionário -->
+            <div id="resultado-questionario" class="resultado"></div>
+        </section>
+    </main>
+
+    <!-- ==================== RODAPÉ ==================== -->
+    <footer>
+        <p>Projeto desenvolvido por <strong>MEDYSON VICOACHE DOS SANTOS</strong> - Concurso Agrinho 2026</p>
+        <p>Tema: "Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"</p>
+        <p>🌿 Todos os conteúdos são autorais e baseados no planejamento original.</p>
+    </footer>
+
+    <!-- Botão de acessibilidade fixo -->
+    <div id="botao-acessibilidade" class="botao-acessibilidade">
+        <button id="btn-acessibilidade" aria-label="Menu de acessibilidade">♿ Acessibilidade</button>
+        <div id="menu-acessibilidade" class="menu-acessibilidade escondido">
+            <button id="aumentar-fonte">A+ Aumentar fonte</button>
+            <button id="diminuir-fonte">A- Diminuir fonte</button>
+            <button id="alto-contraste">🌓 Alto contraste</button>
+        </div>
+    </div>
+
+    <!-- JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
